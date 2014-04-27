@@ -1,0 +1,22 @@
+[user]
+	name = Edwin
+	email = edwin.h.morris@gmail.com
+[alias]
+  lg = log --oneline --abbrev-commit --all --decorate --color
+  shortdiff = !git --no-pager diff --color-words
+[core]
+  excludesfile = /Users/edwin/.gitignore
+[advice]
+  statusHints = false
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = auto
+[color "status"]
+  changed = yellow
+  added = green
+  untracked = red
+[push]
+	default = simple

@@ -1,0 +1,18 @@
+--type-set=coffee=.coffee
+--type-set=haml=.haml
+--type-set=sass=.sass
+ 
+--ignore-dir=log
+--ignore-dir=spec
+--ignore-dir=test
+--ignore-dir=tmp
+--ignore-dir=.sass-cache
+ 
+--ignore-file=match:.gitignore
+--ignore-file=match:jquery.js
+--ignore-file=match:jquery-ui.js
+--ignore-file=match:.rspec
+--ignore-file=match:.rvmrc
+ 
+# vi/vim swap files
+--ignore-file=match:/[._].*\.swp$/
