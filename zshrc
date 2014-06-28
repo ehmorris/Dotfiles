@@ -17,12 +17,9 @@ alias unfuck="git reset --hard"
 
 alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
-alias code="~/Code/"
 
 plugins=(osx)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin
-PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+export PATH=/usr/local/bin:/opt/boxen/homebrew/bin:$PATH
