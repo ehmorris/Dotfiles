@@ -1,6 +1,10 @@
+source ~/.profile
+
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
+
+source $ZSH/oh-my-zsh.sh
 
 alias g="git"
 alias gs="git status -sb"
@@ -19,7 +23,5 @@ alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
 
 plugins=(osx)
-
-source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/bin:/opt/boxen/homebrew/bin:$PATH
