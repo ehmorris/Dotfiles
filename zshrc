@@ -19,6 +19,9 @@ alias master="git checkout master"
 alias mater="master"
 alias unfuck="git reset --hard"
 
+alias rg="cd ~/src/rapgenius"
+alias go="script/server thin"
+
 alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
 
