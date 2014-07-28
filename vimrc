@@ -1,5 +1,7 @@
 set nocompatible
 
+set relativenumber
+
 " Pathogen
 call pathogen#infect()
 call pathogen#helptags()
