@@ -18,6 +18,7 @@ alias amend="git commit --amend"
 alias master="git checkout master"
 alias mater="master"
 alias unfuck="git reset --hard"
+alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/server thin"
