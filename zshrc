@@ -19,7 +19,7 @@ alias master="git checkout master"
 alias mater="master"
 alias unfuck="git reset --hard"
 alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
-pr() { git getpull $* }
+pr() { open `git getpull $*` }
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/server thin"
