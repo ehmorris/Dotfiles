@@ -23,6 +23,7 @@ pr() { open `git getpull $*` }
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/server thin"
+alias gopen="script/server thin && open http://g.dev/Snoop-dogg-gin-and-juice-lyrics"
 
 alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
