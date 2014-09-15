@@ -20,6 +20,15 @@ alias mater="master"
 alias unfuck="git reset --hard"
 alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
 pr() { open `git getpull $*` }
+blowcache() {
+  cd ~/src/rapgenius/
+  rm -rf tmp/sprockets-cache/
+  rm -rf tmp/assets/
+  rm -rf tmp/cache/
+  cd ~/src/rapgenius/public/images/
+  ls | grep site- | xargs rm
+  cd ~/src/rapgenius/
+}
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/server thin"
