@@ -7,6 +7,7 @@ COMPLETION_WAITING_DOTS="true"
 source $ZSH/oh-my-zsh.sh
 
 alias g="git"
+alias gut="git"
 alias gs="git status -sb"
 alias ts="tig status"
 alias gc="git commit -m"
