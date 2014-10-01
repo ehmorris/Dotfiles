@@ -32,7 +32,7 @@ blowcache() {
 }
 
 alias rg="cd ~/src/rapgenius"
-alias go="script/server thin"
+alias go="script/dev server"
 alias gopen="open http://g.dev/Snoop-dogg-gin-and-juice-lyrics && script/server thin"
 
 alias zshrc="vi ~/.zshrc"
