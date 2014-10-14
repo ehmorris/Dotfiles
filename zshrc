@@ -13,10 +13,9 @@ alias ts="tig status"
 alias gc="git commit -m"
 alias ga="git add . -A && git status -sb"
 gd() { git diff -w --word-diff-regex=. --color-words -U0 $* }
-alias gp="git pull --rebase"
 alias glg="tig"
 alias amend="git commit --amend"
-alias master="git checkout master"
+alias master="git checkout master && git pull --rebase"
 alias mater="master"
 alias unfuck="git reset --hard"
 alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
@@ -33,8 +32,7 @@ blowcache() {
 }
 
 alias rg="cd ~/src/rapgenius"
-alias go="script/dev server"
-alias gopen="open http://g.dev/Snoop-dogg-gin-and-juice-lyrics && script/server thin"
+alias go="script/dev server --forward"
 
 alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
