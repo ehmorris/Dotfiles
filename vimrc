@@ -1,12 +1,9 @@
-set nocompatible
-
-set relativenumber
-
 " Pathogen
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
 
 " Built-in settings
+set nocompatible
+set relativenumber
 set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
 set number
 set tabstop=2 shiftwidth=2 expandtab
