@@ -39,5 +39,5 @@ alias vimrc="vi ~/.vimrc"
 
 plugins=(osx)
 
-export PATH=/usr/local/bin:/opt/boxen/homebrew/bin:$PATH
+export PATH=/usr/local/bin:/opt/boxen/homebrew/bin:~/.bin:$PATH
 eval "$(rbenv init -)"
