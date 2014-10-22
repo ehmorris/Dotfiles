@@ -6,6 +6,7 @@
   shortdiff = !git --no-pager diff --color-words
 [core]
   excludesfile = /Users/edwin/.gitignore
+  editor = /usr/bin/vim
 [advice]
   statusHints = false
 [color]
