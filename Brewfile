@@ -1,0 +1,10 @@
+install ack
+install node
+install rbenv
+install autoconf
+install openssl
+install ruby-build
+install heroku-toolbelt
+install pkg-config
+install tig
+install macvim
