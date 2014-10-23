@@ -29,6 +29,9 @@ nmap <Leader>j :wincmd j<CR>
 nmap <Leader>h :wincmd h<CR>
 nmap <Leader>l :wincmd l<CR>
 
+" Ctrlp settings
+set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip
+
 " Neocomplcache.vim settings
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
