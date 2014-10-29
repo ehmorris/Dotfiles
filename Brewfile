@@ -1,4 +1,5 @@
 install ack
+install ag
 install node
 install rbenv
 install autoconf
