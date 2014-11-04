@@ -30,7 +30,7 @@ nmap <Leader>h :wincmd h<CR>
 nmap <Leader>l :wincmd l<CR>
 
 " Ctrlp settings
-set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip
+set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
