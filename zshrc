@@ -30,10 +30,12 @@ blowcache() {
   ls | grep site- | xargs rm
   cd ~/src/rapgenius/
 }
+alias loc="open http://localhost:3000"
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/dev server --forward"
 
+alias dotfiles="cd ~/Dotfiles"
 alias zshrc="vi ~/.zshrc"
 alias vimrc="vi ~/.vimrc"
 
