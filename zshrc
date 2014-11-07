@@ -32,7 +32,7 @@ blowcache() {
 }
 alias loc="open http://localhost:3000"
 
-alias rg="cd ~/src/rapgenius"
+alias rg="cd ~/src/genius"
 alias go="script/dev server --forward"
 
 alias dotfiles="cd ~/Dotfiles"
