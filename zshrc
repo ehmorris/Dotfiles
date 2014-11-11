@@ -22,13 +22,13 @@ alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | 
 conflicts() { ack '<<<<<<< HEAD' }
 pr() { open `git getpull $*` }
 blowcache() {
-  cd ~/src/rapgenius/
+  cd ~/src/genius/
   rm -rf tmp/sprockets-cache/
   rm -rf tmp/assets/
   rm -rf tmp/cache/
-  cd ~/src/rapgenius/public/images/
+  cd ~/src/genius/public/images/
   ls | grep site- | xargs rm
-  cd ~/src/rapgenius/
+  cd ~/src/genius/
 }
 alias loc="open http://localhost:3000"
 
