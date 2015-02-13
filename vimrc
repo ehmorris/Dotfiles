@@ -17,7 +17,6 @@ set hlsearch                          " Highlight all search results
 set splitbelow                        " New horizontal splits open below current window
 set splitright                        " New vertical splits open to the right
 set guifont=Monaco:h14
-set noeol
 
 syntax enable
 filetype plugin indent on
