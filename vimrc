@@ -32,7 +32,7 @@ nmap <Leader>l :wincmd l<CR>
 " Ctrlp settings
 set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
-let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 
 " Neocomplcache.vim settings
 let g:neocomplcache_enable_at_startup = 1
