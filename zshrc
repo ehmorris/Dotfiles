@@ -27,7 +27,7 @@ blowcache() {
   rm -rf tmp/assets/
   rm -rf tmp/cache/
   cd ~/src/genius/public/images/
-  ls | grep site- | xargs rm
+  ls | grep ^site- | xargs rm
   cd ~/src/genius/
 }
 alias loc="open http://localhost:3000"
