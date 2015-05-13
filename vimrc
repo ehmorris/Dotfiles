@@ -38,6 +38,10 @@ let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
+" Markdown highlighting settings
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_frontmatter=1
+
 " CSS Sorting settings
 let mapleader=" "
 map <Leader>3 viB !sortcss<CR>
