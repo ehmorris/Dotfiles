@@ -19,6 +19,8 @@ alias master="git checkout master && git pull --rebase"
 alias mater="master"
 alias unfuck="git reset --hard"
 alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
+alias nodistract="sudo cp /etc/hosts_workweek /etc/hosts"
+alias yesdistract="sudo cp /etc/hosts_weekend /etc/hosts"
 conflicts() { ack '<<<<<<< HEAD' }
 pr() { open `git getpull $*` }
 blowcache() {
