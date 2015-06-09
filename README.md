@@ -46,6 +46,7 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 ##### System Preferences
 - Disable widgets and set other mission control settings (don’t reorganize spaces)
 - Enable/disable specific trackpad gestures
+- Enable running apps from anywhere in the security section
 - Set iCloud to not sync safari and mail
 - Login to twitter/facebook/etc. in Internet Accounts
 - Turn off guest user account
