@@ -64,5 +64,6 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 - Set finder sidebar preferences and other preferences
 - Set Caps lock to ctrl (sys pref -> keyboard -> modifier keys)
 - Set item and terminal preferences for font size etc.
+- Set textedit's default format mode to "plain text"
 - Organize dock
 - Connect phone and "trust", disable any apps from auto-opening when phone is connected
