@@ -41,6 +41,9 @@ set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
 let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 
+" bind K to grep word under cursor
+nnoremap K :Ag! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
 " Neocomplcache.vim settings
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
