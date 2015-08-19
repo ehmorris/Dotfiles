@@ -29,6 +29,7 @@ set noswapfile
 nnoremap j gj
 nnoremap k gk
 filetype plugin indent on
+let mapleader=" "
 
 " Window Switching keys
 nmap <Leader>k :wincmd k<CR>
@@ -53,6 +54,5 @@ let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_frontmatter=1
 
 " CSS Sorting settings
-let mapleader=" "
 map <Leader>3 viB !sortcss<CR>
 map <Leader>4 ?{<CR>jV}k!sortcss<CR>:noh<CR>
