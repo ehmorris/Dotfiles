@@ -1,6 +1,6 @@
 [user]
-	name = Edwin
-	email = edwin.h.morris@gmail.com
+  name = Edwin
+  email = edwin.h.morris@gmail.com
 [init]
   templatedir = ~/.git_template
 [alias]
@@ -22,4 +22,4 @@
   added = green
   untracked = red
 [push]
-	default = simple
+  default = simple
