@@ -22,24 +22,25 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 
 - Set computer name
 - Encrypt hard drive
-- Install dropbox and wait for syncing
+- Install Dropbox and wait for syncing
 - Install dotfiles
-- Install command line tools
+- Install Apple command line tools
 
 ##### Important Apps
-- iterm
-- xcode
-- macvim
-- sizeup
-- caffeine
-- dropbox
-- firefox
-- chrome
-- ia writer
-- licecap
-- postgres93
-- skitch
-- rdio/spotify
+- iTerm
+- Xcode
+- MacVim
+- Sizeup
+- Caffeine
+- Dropbox
+- Firefox
+- Chrome
+- iA Writer
+- LICEcap
+- Postgres93
+- Skitch
+- Sketch
+- Rdio/Spotify
 
 ### Nitpicks
 
@@ -47,23 +48,24 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 - Disable widgets and set other mission control settings (don’t reorganize spaces)
 - Enable/disable specific trackpad gestures
 - Enable running apps from anywhere in the security section
-- Set iCloud to not sync safari and mail
-- Login to twitter/facebook/etc. in Internet Accounts
+- Set iCloud to not sync Safari and mail
+- Login to Twitter/Facebook/Google/etc. in Internet Accounts
 - Turn off guest user account
 - Turn off notification sounds / set notification settings
-- Enable Zooming without smoothing to see pixel details (accessibility)
+- Enable zooming without smoothing to see pixel details (accessibility)
 - Setup or disable time machine
 - Set key repeat rate very high and delay very low
 
 ##### Other
-- Set safari and firefox to not cache or store anything, delete bookmarks, to open to blank pages, show develop menu etc.
-- Set sizeup/divvy shortcuts
+- Set Safari and Firefox to not cache or store anything, delete bookmarks, set homepage to a blank page, show develop menu, etc.
+- Set Sizeup shortcuts
 - ~~Organize launch pad folders~~
 - Set desktop background
 - Set desktop icon view settings
 - Set finder sidebar preferences and other preferences
-- Set Caps lock to ctrl (sys pref -> keyboard -> modifier keys)
-- Set item and terminal preferences for font size etc.
+- Set caps lock to ctrl (system prefs > keyboard > modifier keys)
+- Set iTerm and terminal preferences for font size etc.
 - Set textedit's default format mode to "plain text"
 - Organize dock
 - Connect phone and "trust", disable any apps from auto-opening when phone is connected
+- Connect to whatever relevant projectors/TVs and set preferred monitor settings
