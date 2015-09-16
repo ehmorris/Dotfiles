@@ -23,15 +23,7 @@ alias nodistract="sudo cp /etc/hosts_workweek /etc/hosts"
 alias yesdistract="sudo cp /etc/hosts_weekend /etc/hosts"
 conflicts() { ack '<<<<<<< HEAD' }
 pr() { open `git getpull $*` }
-blowcache() {
-  cd ~/src/genius/
-  rm -rf tmp/sprockets-cache/
-  rm -rf tmp/assets/
-  rm -rf tmp/cache/
-  cd ~/src/genius/public/images/
-  ls | grep ^site- | xargs rm
-  cd ~/src/genius/
-}
+alias blowcache="bundle exec rake assets:clean"
 alias loc="open http://localhost:3000"
 
 alias rg="cd ~/src/genius"
