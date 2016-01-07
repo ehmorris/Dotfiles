@@ -12,6 +12,7 @@ alias gs="git status -sb"
 alias ts="tig status"
 alias gc="git commit"
 alias ga="git add . -A && git status -sb"
+alias patch="git add --patch"
 gd() { git diff -w --word-diff-regex=. --color-words -U0 $* }
 alias glg="tig"
 alias amend="git commit --amend"
@@ -26,7 +27,7 @@ pr() { open `git getpull $*` }
 alias blowcache="bundle exec rake assets:clean"
 alias loc="open http://localhost:3000"
 
-alias rg="cd ~/src/genius"
+alias rg="cd ~/src/rapgenius"
 alias go="script/dev server --forward"
 
 alias dotfiles="cd ~/Dotfiles"
