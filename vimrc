@@ -3,7 +3,7 @@ execute pathogen#infect()
 
 " Built-in settings
 " -- Visual
-set guifont=Monaco:h14
+set guifont=Input\ Mono:h14
 colorscheme Tomorrow-Night
 set showmode
 set number
