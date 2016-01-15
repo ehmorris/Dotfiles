@@ -12,6 +12,7 @@ alias gs="git status -sb"
 alias ts="tig status"
 alias gc="git commit"
 alias ga="git add . -A && git status -sb"
+alias clean="git reset HEAD . && git checkout -- ."
 alias patch="git add --patch"
 gd() { git diff -w --word-diff-regex=. --color-words -U0 $* }
 alias glg="tig"
