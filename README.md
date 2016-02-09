@@ -24,7 +24,7 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 - Encrypt hard drive
 - Install Dropbox and wait for syncing
 - Install dotfiles
-- Install Apple command line tools
+- Install Apple command line tools (installs git, gcc, etc.)
 
 ##### Important Apps
 - iTerm
@@ -40,7 +40,7 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 - Postgres93
 - Skitch
 - Sketch
-- Rdio/Spotify
+- Spotify
 
 ### Nitpicks
 
@@ -62,10 +62,11 @@ git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-mark
 - ~~Organize launch pad folders~~
 - Set desktop background
 - Set desktop icon view settings
-- Set finder sidebar preferences and other preferences
+- Set finder sidebar preferences and other finder preferences
 - Set caps lock to ctrl (system prefs > keyboard > modifier keys)
 - Set iTerm and terminal preferences for font size etc.
 - Set textedit's default format mode to "plain text"
 - Organize dock
 - Connect phone and "trust", disable any apps from auto-opening when phone is connected
 - Connect to whatever relevant projectors/TVs and set preferred monitor settings
+- Disable startup apps in System Preferences > Users and Groups > Login Items
