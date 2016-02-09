@@ -9,3 +9,5 @@ install heroku-toolbelt
 install pkg-config
 install tig
 install macvim
+install keybase
+install ffmpeg
