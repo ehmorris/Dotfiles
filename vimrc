@@ -45,6 +45,10 @@ let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 " bind K to grep word under cursor
 nnoremap K :Ag! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
+" error checking
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_html_tidy_ignore_errors = ['unescaped &', 'lacks "action"']
+
 " Neocomplcache.vim settings
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
