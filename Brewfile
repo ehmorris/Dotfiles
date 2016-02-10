@@ -11,3 +11,4 @@ install tig
 install macvim
 install keybase
 install ffmpeg
+install jshint
