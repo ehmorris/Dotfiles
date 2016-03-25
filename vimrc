@@ -46,8 +46,10 @@ let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 nnoremap K :Ag! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " error checking
-let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_html_tidy_ignore_errors = ['unescaped &', 'lacks "action"']
+let g:syntastic_javascript_checkers = ['eslint']
+
+" https://github.com/scrooloose/syntastic/issues/612#issuecomment-52066598
+let g:syntastic_html_tidy_ignore_errors = [' proprietary attribute ', 'trimming empty <', 'unescaped &' , "lacks \'action", 'is not recognized!', 'discarding unexpected']
 
 " Neocomplcache.vim settings
 let g:neocomplcache_enable_at_startup = 1
