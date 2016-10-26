@@ -34,3 +34,6 @@
 [submodule "vim/bundle/ag.vim"]
 	path = vim/bundle/ag.vim
 	url = git@github.com:rking/ag.vim.git
+[submodule "vim/bundle/vim-elm"]
+	path = vim/bundle/vim-elm
+	url = https://github.com/lambdatoast/elm.vim.git
