@@ -1,0 +1,5 @@
+ffmpeg -i input.mp4 -vf scale=999:-1 output.mp4
+
+ffmpeg -i input.mov -vf -vcodec h264 -strict -2 output.mp4
+
+./goodgif.sh draft_9_scaled.mov draft_9.gif
