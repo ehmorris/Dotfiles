@@ -1,11 +1,11 @@
 ## Repo Setup
 
-Run `install.sh` to from the Dotfiles directory to symlink all the config files/folders. It's fine to run `install.sh` multiple times.
+Run `install.sh` from the Dotfiles directory to symlink all the config files/folders. It's fine to run `install.sh` multiple times.
 
 All the vim bundle plugins are submodules
 
 * If you're pulling this repo down for the first time or updating all the submodules, do this:
-``` 
+```
 git submodule update --init --recursive
 ```
 
