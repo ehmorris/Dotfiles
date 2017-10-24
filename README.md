@@ -14,6 +14,12 @@ git submodule update --init --recursive
 git submodule add git@github.com:plasticboy/vim-markdown.git vim/bundle/vim-markdown
 ```
 
+* To blow away local submodule changes run:
+
+```
+git submodule foreach git reset --hard
+```
+
 [more on submodules here](http://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules)
 
 ## Computer Setup
