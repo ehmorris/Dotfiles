@@ -42,6 +42,12 @@ set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
 let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 
+" Ale settings
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'html': [],
+\}
+
 " bind K to grep word under cursor
 nnoremap K :Ag! "\b<C-R><C-W>\b"<CR>:cw<CR>
 

@@ -16,7 +16,6 @@ alias clean="git reset HEAD . && git checkout -- ."
 alias patch="git add --patch"
 gd() { git diff -w --word-diff-regex=. --color-words -U0 $* }
 alias glg="tig"
-alias diff="git diff | diff-highlight | diff-so-fancy"
 alias amend="git commit --amend"
 alias master="git checkout master && git pull --rebase"
 alias mater="master"
@@ -38,5 +37,5 @@ alias vimrc="vi ~/.vimrc"
 
 plugins=(osx)
 
-export PATH=/usr/local/bin:/opt/boxen/homebrew/bin:~/.bin:$PATH
+export PATH=/usr/local/bin:~/.bin:$PATH
 eval "$(rbenv init -)"
