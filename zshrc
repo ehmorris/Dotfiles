@@ -27,6 +27,7 @@ conflicts() { ack '<<<<<<< HEAD' }
 pr() { open `git getpull $*` }
 alias blowcache="bundle exec rake assets:clean"
 alias loc="open http://localhost:3000"
+alias webp="cwebp"
 
 alias rg="cd ~/src/rapgenius"
 alias go="script/dev server --forward"
