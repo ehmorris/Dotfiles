@@ -20,7 +20,9 @@ rules:
   no-console: off
 parserOptions:
   sourceType: module
-extends: eslint:recommended
+extends:
+  eslint:recommended
+  plugin:react/recommended
 env:
   amd: true
   browser: true

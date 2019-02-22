@@ -59,6 +59,9 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_frontmatter=1
 
+" JSX highlighting settings
+let g:jsx_ext_required = 0
+
 " CSS Sorting settings
 map <Leader>3 viB !sortcss<CR>
 map <Leader>4 ?{<CR>jV}k!sortcss<CR>:noh<CR>
