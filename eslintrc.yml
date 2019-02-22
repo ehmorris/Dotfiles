@@ -17,6 +17,10 @@ rules:
   keyword-spacing: [error]
   comma-dangle: [error]
   eqeqeq: [error, smart]
+  no-console: off
 parserOptions:
   sourceType: module
 extends: eslint:recommended
+env:
+  amd: true
+  browser: true
