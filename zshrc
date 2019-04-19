@@ -35,5 +35,4 @@ alias vimrc="vi ~/.vimrc"
 
 plugins=(osx)
 
-export PATH=/usr/local/bin:~/.bin:$PATH
-eval "$(rbenv init -)"
+export PATH=/usr/local/bin:~/.bin:$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
