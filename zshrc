@@ -18,6 +18,7 @@ alias amend="git commit --amend"
 alias master="git checkout master && git pull --rebase"
 alias mater="master"
 alias tidy="git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d"
+alias branch="git branch | cat"
 alias nodistract="sudo cp /etc/hosts_workweek /etc/hosts"
 alias yesdistract="sudo cp /etc/hosts_weekend /etc/hosts"
 conflicts() { ack '<<<<<<< HEAD' }
@@ -25,7 +26,7 @@ pr() { open `git getpull $*` }
 alias loc="open http://localhost:3000"
 alias webp="cwebp"
 
-alias glitch="cd ~/code/Glitch"
+alias glitch="cd ~/Dev/Glitch-Editor"
 alias code="code ."
 alias vscode="code"
 
