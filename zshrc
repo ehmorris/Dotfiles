@@ -26,7 +26,6 @@ pr() { open `git getpull $*` }
 alias loc="open http://localhost:3000"
 alias webp="cwebp"
 
-alias glitch="cd ~/Dev/Glitch-Editor"
 alias code="code ."
 alias vscode="code"
 
