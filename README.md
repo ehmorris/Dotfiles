@@ -34,42 +34,37 @@ git submodule foreach git reset --hard
 
 ##### Important Apps
 - iTerm
-- Xcode
 - MacVim
-- Sizeup
-- Caffeine
+- VSCode
+- Spectacle
 - Dropbox
 - Firefox
 - Chrome
-- iA Writer
+- MacDown
 - LICEcap
-- Postgres93
-- Skitch
-- Sketch
+- Figma
 - Spotify
 
 ### Nitpicks
 
 ##### System Preferences
-- Disable widgets and set other mission control settings (don’t reorganize spaces)
+- Set mission control settings (don’t rearrange spaces)
 - Enable/disable specific trackpad gestures
 - Enable running apps from anywhere in the security section
-- Set iCloud to not sync Safari and mail
-- Login to Twitter/Facebook/Google/etc. in Internet Accounts
+- Login to Google etc. in Internet Accounts
 - Turn off guest user account
 - Turn off notification sounds / set notification settings
 - Enable zooming without smoothing to see pixel details (accessibility)
-- Setup or disable time machine
 - Set key repeat rate very high and delay very low
+- Set caps lock to ctrl (system prefs > keyboard > modifier keys)
 
 ##### Other
 - Set Safari and Firefox to not cache or store anything, delete bookmarks, set homepage to a blank page, show develop menu, etc.
-- Set Sizeup shortcuts
-- ~~Organize launch pad folders~~
+- Set Spectacle shortcuts
 - Set desktop background
 - Set desktop icon view settings
-- Set finder sidebar preferences and other finder preferences
-- Set caps lock to ctrl (system prefs > keyboard > modifier keys)
+- Disable thumbnail mode in the screeshot tool
+- Set finder sidebar preferences and other finder preferences (hidden files)
 - Set iTerm and terminal preferences for font size etc.
 - Set textedit's default format mode to "plain text"
 - Organize dock
