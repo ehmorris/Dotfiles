@@ -71,3 +71,4 @@ git submodule foreach git reset --hard
 - Connect phone and "trust", disable any apps from auto-opening when phone is connected
 - Connect to whatever relevant projectors/TVs and set preferred monitor settings
 - Disable startup apps in System Preferences > Users and Groups > Login Items
+- Setup SSH with GitHub
